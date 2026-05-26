@@ -1,0 +1,41 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #0f172a;
+    border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.right a:hover {
+    color: #38bdf8;
+}
